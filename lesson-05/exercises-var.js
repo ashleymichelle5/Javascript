@@ -95,3 +95,64 @@ const streamingCost = streamingService + giftcards;
 const streamingCostWithTax = (streamingCost * 0.03) + streamingCost;
 console.log(`The total before tax is: $${streamingCost}`);
 console.log(`the total with tax is: $${streamingCostWithTax.toFixed(2)}`);
+
+//11
+
+const name = 'Ashley';
+const age = 29;
+console.log(`My name is ${name} and I am ${age} years old`);
+
+//12 
+
+let score = 0;
+score = 10;
+console.log(`The score is ${score}`);
+
+const pi = 3.14;
+console.log(`The pi value is ${pi}`);
+
+//13 
+
+let city = 'New York', country = 'USA', population = 8419600;
+console.log(`The city is ${city}, the country is ${country}, and the population is ${population}`);
+
+var oldStyle = 'test';
+console.log(oldStyle);
+
+//14 
+
+if (true) {
+  var x = 10;
+  let y = 20;
+}
+console.log(x);
+
+let $price = 100;
+console.log($price);
+
+let _isValid = true;
+console.log(_isValid);
+
+//15 
+
+let string = 'Hello world';
+let number = 42;
+let boolean = true;
+let array = [1, 2, 3];
+let object = {color: 'red', size: 'medium'};
+
+console.log(typeof string);
+console.log(typeof number);
+console.log(typeof boolean);
+console.log(typeof array);
+console.log(typeof object);
+console.log(Array.isArray(array));
+
+//16 
+
+let firstName = 'John';
+let lastName = 'Doe';
+let birthYear = 1990;
+let fullName = firstName +' ' +  lastName; 
+console.log(`My full name is ${fullName} and my age is  ${2026 - birthYear}`); 
+console.log(fullName);
