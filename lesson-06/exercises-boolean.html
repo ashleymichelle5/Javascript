@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises: Boolean</title>
+</head>
+<body>
+    <script>
+        let hour = 7;
+        const name = "John";
+        if (hour >= 6 && hour <= 12) {
+            console.log(`Good morning, ${name}`);
+        } else if (hour >= 13 && hour <= 17) {
+            console.log(`Good afternoon, ${name}`);
+        } else {
+            console.log (`Good evening, ${name}`);
+        }
+
+        let age = 67;
+        const isHoliday = true;
+
+        if ((age <= 6 || age >=65) && isHoliday) {
+            console.log('Discount');
+        } else {
+            console.log('Full price');
+        }
+
+
+        const randomNumber = Math.random();
+        if (randomNumber <= 0.5) {
+            let result = 'Heads';
+            console.log(result);
+        } else {
+            let result = 'Tails';
+            console.log(result);        
+        } 
+
+        const guess = 'Heads';
+        const result = guess === 'Heads'? 'You guessed Heads' : 'You guessed Tails';
+        console.log(result);
+    </script>
+</body>
+</html>
